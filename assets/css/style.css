@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+#home {
+  display: flex;
+}
+#home .home-left {
+  padding-left: 7%;
+  width: 70%;
+  height: 100vh;
+  background-color: #45484E;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: none;
+  flex-direction: column;
+  padding-top: 7%;
+  position: relative;
+}
+#home .home-left .home-menu {
+  margin-bottom: 4rem;
+}
+#home .home-left .home-menu ul {
+  display: flex;
+}
+#home .home-left .home-menu ul li {
+  margin-right: 1.5rem;
+}
+#home .home-left .home-menu ul li a {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+#home .home-left .home-menu ul li :hover {
+  color: #EBEBEB;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#home .home-left .home-title h1 {
+  font-size: 5.25rem;
+  color: #EBEBEB;
+  margin-bottom: 2rem;
+}
+#home .home-left .home-title p {
+  color: #EBEBEB;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+#home .home-left .home-card {
+  width: 60%;
+  height: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -8%;
+  border-radius: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  padding: 30px;
+}
+#home .home-rigth {
+  width: 30%;
+  height: 100vh;
+  background-color: #EBEBEB;
+}
+
+/*# sourceMappingURL=style.css.map */
