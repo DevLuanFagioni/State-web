@@ -44,26 +44,41 @@
   font-size: 5.25rem;
   color: #EBEBEB;
   margin-bottom: 2rem;
+  width: 70%;
 }
 #home .home-left .home-title p {
   color: #EBEBEB;
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  width: 70%;
 }
 #home .home-left .home-card {
-  width: 60%;
-  height: 300px;
+  width: 70%;
   background-color: #ffffff;
-  position: absolute;
-  bottom: -8%;
   border-radius: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   padding: 30px;
+}
+#home .home-left .home-card select {
+  background-color: #EBEBEB;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 40%;
+  height: 60px;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 #home .home-rigth {
   width: 30%;
   height: 100vh;
   background-color: #EBEBEB;
+  text-align: right;
+  padding: 30px;
+}
+#home .home-rigth img {
+  height: 100px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
