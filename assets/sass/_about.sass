@@ -1,0 +1,26 @@
+@use 'variables'
+@use 'mixins'
+
+#about
+  width: 100%
+  padding: 7% 100px
+  @include mixins.flex(center, center, wrap)
+
+  .about-img
+    width: 50%
+    height: 400px
+    background-color: variables.$primary
+    border-radius: 30px
+
+  .about-content
+    width: 50%
+    height: 400px
+    padding: 40px
+    @include mixins.flex(flex-start, space-evenly, none)
+    flex-direction: column
+
+    h1
+      font-size: variables.$subTitleSize
+
+    p
+      font-size: variables.$textSize

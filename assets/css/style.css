@@ -184,4 +184,35 @@
   margin: 5px 0px;
 }
 
+#about {
+  width: 100%;
+  padding: 7% 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#about .about-img {
+  width: 50%;
+  height: 400px;
+  background-color: #45484E;
+  border-radius: 30px;
+}
+#about .about-content {
+  width: 50%;
+  height: 400px;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: none;
+  flex-direction: column;
+}
+#about .about-content h1 {
+  font-size: 2.5rem;
+}
+#about .about-content p {
+  font-size: 1.2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
