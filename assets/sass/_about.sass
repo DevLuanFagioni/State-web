@@ -3,21 +3,30 @@
 
 #about
   width: 100%
-  padding: 7% 100px
-  @include mixins.flex(center, center, wrap)
+  padding: 0px 7%
+  @include mixins.flex(center, center, wrap-reverse)
+
+  @include mixins.mobile
+    padding: 0px 7%
 
   .about-img
     width: 50%
+    min-width: 320px
     height: 400px
     background-color: variables.$primary
     border-radius: 30px
 
   .about-content
     width: 50%
+    min-width: 320px
     height: 400px
     padding: 40px
     @include mixins.flex(flex-start, space-evenly, none)
     flex-direction: column
+
+    @include mixins.mobile
+      height: 500px
+      padding: 10px
 
     h1
       font-size: variables.$subTitleSize

@@ -5,6 +5,9 @@
   width: 100%
   background-color: variables.$white
   padding: 100px 7%
+  
+  @include mixins.mobile
+    padding-bottom: 0px
 
   .product-title
     margin-bottom: 50px
@@ -18,7 +21,7 @@
     @include mixins.flex(center, space-evenly, wrap)
 
     .product-card
-      min-width: 340px
+      min-width: 320px
       width: 30%
       height: 520px
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
