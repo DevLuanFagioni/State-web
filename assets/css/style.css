@@ -8,6 +8,9 @@
 
 #home {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 #home .home-left {
   padding-left: 7%;
@@ -20,11 +23,29 @@
   justify-content: flex-start;
   flex-wrap: none;
   flex-direction: column;
-  padding-top: 7%;
+  padding-top: 3%;
   position: relative;
 }
+@media (max-width: 600px) {
+  #home .home-left {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#home .home-left .mobile-menu-logo {
+  display: none;
+  display: block;
+  position: absolute;
+  top: 3%;
+}
+#home .home-left .mobile-menu-logo img {
+  width: 130px;
+  height: 100px;
+}
 #home .home-left .home-menu {
-  margin-bottom: 4rem;
+  margin-bottom: 5%;
+  display: none;
 }
 #home .home-left .home-menu ul {
   display: flex;
@@ -42,16 +63,20 @@
   transition: 0.5s;
 }
 #home .home-left .home-title h1 {
-  font-size: 4.55rem;
+  font-size: 3.5rem;
   color: #EBEBEB;
-  margin-bottom: 2rem;
-  width: 70%;
+  margin-bottom: 5%;
+  width: 80%;
+  width: 100%;
+  font-size: 2.5rem;
 }
 #home .home-left .home-title p {
   color: #EBEBEB;
   font-size: 1.2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5%;
   width: 70%;
+  width: 100%;
+  margin-bottom: 20%;
 }
 #home .home-left .home-card {
   width: 70%;
@@ -59,6 +84,7 @@
   border-radius: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   padding: 30px;
+  width: 100%;
 }
 #home .home-left .home-card select {
   background-color: #EBEBEB;
@@ -69,6 +95,7 @@
   height: 60px;
   margin-right: 5%;
   margin-top: 5%;
+  width: 43%;
 }
 #home .home-rigth {
   width: 30%;
@@ -76,6 +103,11 @@
   background-color: #EBEBEB;
   text-align: right;
   padding: 30px;
+}
+@media (max-width: 600px) {
+  #home .home-rigth {
+    display: none;
+  }
 }
 #home .home-rigth img {
   height: 100px;
@@ -109,7 +141,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 30px;
 }
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   #product .product-cards .product-card {
     margin-bottom: 50px;
   }
