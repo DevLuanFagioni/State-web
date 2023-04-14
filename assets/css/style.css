@@ -66,13 +66,13 @@
   font-size: 1.2rem;
 }
 #home .home-left .home-menu ul li :hover {
-  color: #EBEBEB;
+  color: #d5d4d4;
   text-decoration: underline;
   transition: 0.5s;
 }
 #home .home-left .home-title h1 {
   font-size: 3.5rem;
-  color: #EBEBEB;
+  color: #d5d4d4;
   margin-bottom: 5%;
   width: 80%;
 }
@@ -83,7 +83,7 @@
   }
 }
 #home .home-left .home-title p {
-  color: #EBEBEB;
+  color: #d5d4d4;
   font-size: 1.2rem;
   margin-bottom: 5%;
   width: 70%;
@@ -107,7 +107,7 @@
   }
 }
 #home .home-left .home-card select {
-  background-color: #EBEBEB;
+  background-color: #d5d4d4;
   border-radius: 50px;
   text-align: center;
   font-size: 1.2rem;
@@ -124,7 +124,7 @@
 #home .home-rigth {
   width: 30%;
   height: 100vh;
-  background-color: #EBEBEB;
+  background-color: #d5d4d4;
   text-align: right;
   padding: 30px;
 }
@@ -233,7 +233,7 @@
 }
 
 #services {
-  background-color: #EBEBEB;
+  background-color: #d5d4d4;
   padding: 100px 7% 100px 7%;
 }
 #services .services-title {
@@ -308,8 +308,88 @@
 #banner .banner-card p {
   color: #ffffff;
   width: 70%;
-  color: #EBEBEB;
+  color: #d5d4d4;
   width: 90%;
+}
+footer {
+  width: 100%;
+  padding: 100px 7% 100px 7%;
+  background-color: #45484E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer div {
+  width: 40%;
+  min-width: 320px;
+}
+@media (max-width: 600px) {
+  footer div {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+footer div h1 {
+  font-size: 3.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  footer div h1 {
+    font-size: 2.5rem;
+  }
+}
+footer div p {
+  color: #d5d4d4;
+  margin-bottom: 20px;
+}
+footer div span {
+  color: #ffffff;
+}
+footer div span a {
+  color: #ff0000;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+footer div span a:hover {
+  color: #d5d4d4;
+}
+footer form {
+  width: 50%;
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: none;
+  flex-direction: column;
+}
+footer form h1 {
+  font-size: 3.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+footer form input {
+  background-color: #45484E;
+  border: 0;
+  height: 40px;
+  border-bottom: 2px solid #d5d4d4;
+  margin-bottom: 20px;
+  width: 300px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+footer form input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  border-bottom: 2px solid #d5d4d4;
+}
+footer form button {
+  width: 100px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #45484E;
 }
 
 /*# sourceMappingURL=style.css.map */
