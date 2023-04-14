@@ -279,4 +279,37 @@
   color: #45484E;
 }
 
+#banner {
+  width: 100%;
+  padding: 100px 7% 100px 7%;
+}
+#banner .banner-card {
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #45484E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: none;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px;
+}
+#banner .banner-card h1 {
+  color: #ffffff;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+  #banner .banner-card h1 {
+    font-size: 2.5rem;
+  }
+}
+#banner .banner-card p {
+  color: #ffffff;
+  width: 70%;
+  color: #EBEBEB;
+  width: 90%;
+}
+
 /*# sourceMappingURL=style.css.map */
