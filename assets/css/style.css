@@ -6,6 +6,24 @@
   text-decoration: none;
 }
 
+::selection {
+  background-color: #aba9a9;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #45484E;
+}
+
 #home {
   display: flex;
   align-items: center;
@@ -127,6 +145,14 @@
   background-color: #d5d4d4;
   text-align: right;
   padding: 30px;
+  background: url(../image/home.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 130%;
+  transition: 0.5s;
+}
+#home .home-rigth:hover {
+  background-size: 160%;
 }
 @media (max-width: 600px) {
   #home .home-rigth {
@@ -177,8 +203,37 @@
 #product .product-cards .product-card div:nth-child(1) {
   width: 100%;
   height: 75%;
-  background-color: #45484E;
   border-radius: 30px;
+}
+#product .product-cards .product-card #service-image1 {
+  background: url(../image/service1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 130%;
+  transition: 0.5s;
+}
+#product .product-cards .product-card #service-image1:hover {
+  background-size: 160%;
+}
+#product .product-cards .product-card #service-image2 {
+  background: url(../image/service2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 130%;
+  transition: 0.5s;
+}
+#product .product-cards .product-card #service-image2:hover {
+  background-size: 160%;
+}
+#product .product-cards .product-card #service-image3 {
+  background: url(../image/service3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 130%;
+  transition: 0.5s;
+}
+#product .product-cards .product-card #service-image3:hover {
+  background-size: 160%;
 }
 #product .product-cards .product-card .content-product-card {
   padding: 20px;
@@ -205,8 +260,15 @@
   width: 50%;
   min-width: 320px;
   height: 400px;
-  background-color: #45484E;
   border-radius: 30px;
+  background: url(../image/about.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 130%;
+  transition: 0.5s;
+}
+#about .about-img:hover {
+  background-size: 160%;
 }
 #about .about-content {
   width: 50%;
@@ -274,6 +336,15 @@
   height: 80px;
   border-radius: 100%;
   background-color: #45484E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: none;
+}
+#services .services-cards .services-card div i {
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 5px;
 }
 #services .services-cards .services-card p {
   color: #45484E;
@@ -286,7 +357,6 @@
 #banner .banner-card {
   width: 100%;
   padding: 80px 0px;
-  background-color: #45484E;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,6 +364,15 @@
   flex-direction: column;
   text-align: center;
   border-radius: 30px;
+  background: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  transition: 0.5s;
+  filter: grayscale(100%);
+}
+#banner .banner-card:hover {
+  background-size: 160%;
 }
 #banner .banner-card h1 {
   color: #ffffff;
