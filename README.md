@@ -2,7 +2,7 @@
 
 ## 🌐 Deploy
 
-fagioni-galleria.netlify.app
+https://fagioni-galleria.netlify.app/ 
 
 ## 🛠️ Construído com
 
